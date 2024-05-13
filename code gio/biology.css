@@ -1,0 +1,93 @@
+:root {
+--primaryColor:var(black);
+--padding: 8%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient( to right,rgba(50, 50, 131, 0.795),rgba(0, 0, 0, 0.801));
+    height: 100vh;
+    
+    display: flex;
+    
+  
+}
+
+.back-video {
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+z-index: -1;
+}
+
+h1 {
+    color: aliceblue;
+    padding-top: 2rem;
+    align-items: left;
+    margin-right: 20rem;
+    margin-left: 2rem;
+}
+
+h2 {
+    color: white;
+    font-size: 5rem;
+    align-items: center;
+    padding-top: 19rem;
+    background-position: 9rem;
+}
+h4 {
+margin-top: 1.5rem;
+    font-size: large;
+    color: rgb(12, 12, 12);
+}
+mark {
+    background-color: rgb(29, 52, 87, 0.425);
+}
+span {
+    color: var(--primaryColor);
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem;
+    align-items: right;
+    margin-top: 3rem;
+    
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.4s;
+}
+nav ul li a:hover {
+    color: black;
+}
+hr {
+background-color: antiquewhite;
+width: 26rem;
+visibility: hidden;
+padding-bottom: 4rem;
+}
+
+.btn {
+    background-color: rgb(10, 3, 37);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.21rem 2.57rem;
+    border-radius: 30px;
+    font-size: large;
+    font-size: 22px;
+    
+}

@@ -1,0 +1,132 @@
+:root{
+    --color-primary: rgb(236, 255, 70);
+    --color-secondary: black;
+    --color-else: white
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f7f1de;
+    height: 100vh;
+   
+}
+span{
+    color: rgb(231, 229, 72);
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: 6rem;
+    margin-top: 5rem;
+  font-size: 2.6rem;
+  
+}
+
+p{
+    color: rgb(0, 0, 0);
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-size: 32px;
+    text-align: right;
+    word-spacing: 3px;
+}
+hr {
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+    align-items: right;
+    width: 78rem;
+    margin-top: 1rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    margin-right: 3rem;
+}
+ .menu__bar{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-radius: 5px;
+} 
+ .logo{
+    color: azure;
+    font-size: 30px;
+} 
+.menu__bar ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+.menu__bar ul li{
+    padding: 10px 30px;
+    position: relative;
+    text-align: center;
+
+}
+
+ .menu__bar ul li a{
+color: var(--color-else);
+text-decoration: none;
+font-size: 20px;
+transition: all 0.3s;
+}
+ .menu__bar ul li a:hover{
+    color: rgb(243, 245, 115);
+
+} 
+.dropdown__menu{
+    display: none;
+}
+
+
+
+
+
+.menu__bar ul li:hover .dropdown__menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:   rgb(0, 0, 0);
+} 
+.menu__bar ul li:hover .dropdown__menu ul{
+    display: block;
+    margin: 10px;
+} 
+.menu__bar ul li:hover .dropdown__menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.drop__menu-1{
+    display: none;
+}
+.dropdown__menu ul li:hover .drop__menu-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color:  rgb(0, 0, 0);
+}
+img{
+
+    height: 90vh;
+    width: 100%;
+}
