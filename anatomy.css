@@ -1,0 +1,131 @@
+:root{
+    --color-primary: rgb(236, 255, 70);
+    --color-secondary: black;
+    --color-else: white
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f3f0de;
+    height: 100vh;
+   
+}
+span{
+    color: rgb(212, 200, 179);
+}
+h1{
+    color: aliceblue;
+    font-size: 40px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-right: 4rem;
+    margin-top: 5rem;
+  font-size: 30px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-size: 25px;
+    text-align: right;
+}
+hr {
+    color: rgb(0, 0, 0);
+    border: solid;
+    align-items: center;
+    width: 70rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+ .menu__bar{
+    background-color: rgb(31, 22, 4);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+} 
+ .logo{
+    color: azure;
+    font-size: 30px;
+} 
+.menu__bar ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu__bar ul li{
+    padding: 10px 30px;
+    position: relative;
+    text-align: center;
+
+}
+
+ .menu__bar ul li a{
+color: var(--color-else);
+text-decoration: none;
+font-size: 20px;
+transition: all 0.3s;
+}
+ .menu__bar ul li a:hover{
+    color: rgb(209, 190, 148);
+
+} 
+.dropdown__menu{
+    display: none;
+}
+
+
+
+
+
+.menu__bar ul li:hover .dropdown__menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:    rgb(31, 22, 4);
+} 
+.menu__bar ul li:hover .dropdown__menu ul{
+    display: block;
+    margin: 10px;
+} 
+.menu__bar ul li:hover .dropdown__menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.drop__menu-1{
+    display: none;
+}
+.dropdown__menu ul li:hover .drop__menu-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color:   rgb(31, 22, 4);
+}
+.video{
+    float: left;
+    width: 372px;
+    height: 200px;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+    padding-right: 5px;
+    justify-content: left;
+    padding-bottom: 0.7rem;
+}
